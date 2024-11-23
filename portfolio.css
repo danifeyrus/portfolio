@@ -238,14 +238,14 @@ footer {
 }
 
 @media (max-width: 1300px) {
-    body {
-      padding: 4rem 10rem; 
+    .main-body {
+      padding: 4rem 6rem; 
     }
   }
 
   @media (max-width: 900px) {
-    body {
-      padding: 4rem 5rem; 
+    .main-body {
+      padding: 4rem; 
     }
   }
 
