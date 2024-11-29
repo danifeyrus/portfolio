@@ -176,6 +176,7 @@ nav {
     display: flex;
     flex-direction: column;
     gap: 1rem;
+    width: 100%;
 }
 
 .tag-container {
@@ -243,9 +244,14 @@ footer {
     }
   }
 
-  @media (max-width: 900px) {
+@media (max-width: 900px) {
     .main-body {
       padding: 4rem; 
     }
   }
 
+@media (max-width: 570px) {
+    .main-body {
+      padding: 1rem; 
+    }
+  }
